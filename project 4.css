@@ -1,0 +1,54 @@
+label{
+    font-style: oblique;
+    color: green;
+}
+select{
+    color: red;
+}
+button{
+    font-style: italic;
+    color: maroon;
+}
+form{
+    color: darkred;
+}
+body{
+    color: orange;
+}
+*{
+    background-color: pink;
+}
+input[type=text]{
+    padding: 6px;
+    margin: 8px;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+input[type=password]{
+    padding: 6px 10px;
+    margin: 8px 0;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+input[type=radio]{
+    padding: 6px;
+    margin: 8px;
+    border: 2px solid red;
+    border-radius: 10px;
+    appearance: none;
+}
+input[type=radio]:checked{
+background-color: black;
+}
+body{
+    padding: 150px;
+    padding-left: 150px;
+    padding-top: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+    border-color: black;
+    border-style: double;
+}
+button:hover{
+    background-color: aqua;
+}
